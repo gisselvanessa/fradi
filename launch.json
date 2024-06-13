@@ -1,0 +1,12 @@
+
+		{
+			"name": "Launch Built-in server & Profile",
+			"type": "php",
+			"request": "launch",
+			"runtimeArgs": [
+				"-S", "localhost:8888", "-t", "."
+			],
+			"noDebug": true,
+			"profile": true
+		}
+

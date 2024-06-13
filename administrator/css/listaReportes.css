@@ -1,0 +1,247 @@
+body{
+	/*background-color: black;*/
+	/* font-size: 14px; */
+	/*background-color: black;*/
+    /*color: white;*/
+	overflow-y: scroll;
+}
+input{
+	border: none;
+}
+table{
+	border: none;
+	
+	
+
+}
+.page-link:active{
+	border:1px solid red;
+}
+#miTabla {
+	/* border-collapse: collapse; */
+  }
+  
+  #miTabla th,
+  #miTabla td {
+	border: none;
+  }
+tr,td{
+	border:none;
+	margin: 0rem;
+	padding: 0rem;
+}
+.mb-3{
+	padding-top: 8.7rem;
+}
+button {
+    margin: 0;
+	padding: 0;
+}
+.cntr{
+	display: flex;
+	justify-content: center	;
+	margin-bottom: 3rem;
+}
+.btnList{
+	background-color: rgb(47, 119, 156);
+	/* background-color: rgb(47, 119, 156); */
+/* box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 10px, rgba(0, 0, 0, 0.06) 20px 15px 12px; */
+
+	border: none;
+	color: white;
+	padding: 6px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 17px;
+	transition: 0.2s;
+
+
+}
+
+.form1_bg{
+	background-color:  rgb(229, 229, 229);
+	padding: 3rem;
+	display: flex;
+	flex-direction: column;
+	gap:0.5rem;
+}
+.body_container{
+	/*width: calc(100vw-50px);*/
+	/*width: 90vw;*/
+	/*padding-left: : 100px;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* margin: auto; */
+	margin-top: 66.97px;
+
+	/*background-color: red;*/
+	/*padding-left: 50px;*/
+}
+.btn{
+	margin: 0;
+	padding: 0;
+}
+.form3{
+	/*margin: 4rem 0rem;*/
+}
+.form-control{
+	border:none;
+	/*padding: 0;*/
+
+}
+.nav_menu_header1{
+	height: 35px;
+	width: 100%;
+	background-color: rgb(78, 31, 79);
+
+	letter-spacing: 0.1rem;
+	/*background-color: rgb(158, 67, 143);*/
+	color: white;
+	padding: 0.5rem;
+	display: flex;
+	justify-content: flex-end;
+	/*position: fixed;*/
+	top: 66.97px;
+
+}
+
+.nav_menu_header3{
+	height: 35px;
+	width: 100%;
+	background-color: rgb(78, 31, 79);
+	padding-left: 1rem;
+	letter-spacing: 0.15rem;
+	/*background-color: rgb(158, 67, 143);*/
+	color: white;
+	/*padding: 0.5rem;*/
+	display: flex;
+	/* justify-content:flex-start; */
+	align-items: center;
+	position: fixed;
+	top: 66.97px;
+	z-index:1002;
+	
+
+
+}
+.formcontrol{
+	width: 100%;
+	/*min-width:230px;*/
+}
+.title{
+	font-weight: bold;
+	padding: 0;
+	/*text-transform: capitalize;*/
+	/*text-align: right;*/
+}
+.container{
+	/*max-width: 1000px;*/
+	display: flex;
+	flex-direction: column;
+	gap:2rem;
+	/*margin:2rem auto;*/
+	max-width: 900px
+
+
+}
+.formcontrol1{
+
+}
+.first_cont{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+.sec_cont{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 2rem;
+    justify-content: space-between;
+
+}
+.raw{
+    display: flex;
+    gap:1rem;
+    width: 100%
+}
+.dir{
+	width: 100%;
+	height: 50px;
+}
+.column{
+	width: 100%
+}
+.container {
+	overflow: hidden;
+	text-align: center;
+  }
+ 
+  .table-striped tbody tr:nth-of-type(odd) {
+	background-color: rgb(217, 235, 235);
+  }
+
+  .table-hover tbody tr:hover {
+	background-color: rgba(167, 225, 255, 0.621);
+	color: rgb(112, 24, 78);
+  }
+
+  .thead{
+	background-color: rgb(47, 119, 156);
+	color: white;
+  }
+
+.button:hover{
+    filter:brightness(1.2) ;
+}
+.loader {
+    width: 30px;
+    height: 30px;
+    border: 4px solid #FF3D00;
+    border-bottom-color: #FFF;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
+
+    #tabla {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      
+      #tabla th,
+      #tabla td {
+        border: 1px solid black;
+        padding: 8px;
+      }
+      
+      #paginacion-container {
+        margin-top: 10px;
+        text-align: right;
+      }
+      
+      #paginacion-container button {
+        margin-left: 5px;
+		background-color: rgb(158, 67, 143);
+		border-color: rgb(158, 67, 143);
+      }
+	
+    #tabla-container{
+        padding-top: 150px;
+		overflow: hidden;
+		padding-bottom: 2rem;
+    }      
